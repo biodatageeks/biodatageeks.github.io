@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Agnieszka Szturło
+title: Agnieszka Szmurło
 
 # Full Name (for SEO)
 first_name: Agnieszka
-last_name: Szurło
+last_name: Szmurło
 
 # Is this the primary user of the site?
 superuser: false
