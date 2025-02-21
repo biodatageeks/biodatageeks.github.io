@@ -5,21 +5,23 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
-    content:
+  # - block: hero
+  #   content:
       # title: |
       #   Biodatageeks
-      image:
-        filename: logo_helix.png
-        alt: Biodatageeks Logo
-        style: |
-          margin-top: 70px;  # Adjust the value to move the image lower
-      text: |
-        <div style="text-align: center;">
-        <br>
+      # image:
+      #   filename: logo_helix.png
+      #   alt: Biodatageeks Logo
+      #   style: |
+      #     margin-top: 70px;  # Adjust the value to move the image lower
+      # text: |
+      #   <div style="text-align: center;">
+      #   <br>
         
-        **BiodataGeeks** is a research team at Warsaw University of Technology, uniting faculty, PhD students, and students to explore bioinformatics, genomics, and genetic data analysis.
-        </div>
+      #   **BiodataGeeks** is a research team at Warsaw University of Technology, uniting faculty, PhD students, and students to explore bioinformatics, genomics, and genetic data analysis.
+      #   </div>
+    
+
 
   # - block: collection
   #   content:
@@ -44,12 +46,17 @@ sections:
     content:
       title:
       subtitle: ''
-      text:
+      text: |
+        <div style="text-align: justify; font-size: 36px; max-width: 65%; margin-left: auto; margin-right: -10%; padding-top: 330px;">
+        <br>
+
+        **BiodataGeeks** is a research team at Warsaw University of Technology, uniting faculty, PhD students, and students to explore bioinformatics, genomics, and genetic data analysis.
+        </div>
     design:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: background_logo.png
           filters:
             brightness: 1
           parallax: false
@@ -73,12 +80,12 @@ sections:
   #     view: citation
   #     columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle:
+  #     text: |
+  #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+  #   design:
+  #     columns: '1'
 ---
